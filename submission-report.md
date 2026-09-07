@@ -1,6 +1,6 @@
 # Submission Report
 
-- Submission generated at 09/06/2026 at 23:44:13
+- Submission generated at 09/07/2026 at 06:07:41
 
 - Machine info: Linux runnervmejwal 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
 
@@ -27,7 +27,7 @@ Post any questions on the class discussion board for help.
 
 I did not find any issues with the final code. It compiles without warnings in GitHub Codespaces, all of the unit tests pass, `lab.c` has 100% code coverage, and AddressSanitizer does not report any memory issues.
 
-I was not able to test it on Onyx because I could not connect to the Boise State VPN on multiple devices. I also tried connecting directly through SSH while off campus, but the connection timed out. This appears to be an access issue rather than an issue with the code.
+I initially had trouble testing the project on Onyx because the Boise State VPN would not connect on my Mac or other devices. I was eventually able to connect to the VPN using a Windows computer. After connecting through SSH, the project successfully compiled on Onyx without any warnings or errors.
 
 ## Experience
 
@@ -363,14 +363,14 @@ int main(void) {
 ```
 
 ## Scripts Files
-Report generated on 09/06/2026 at 23:44:14
+Report generated on 09/07/2026 at 06:07:42
 
 
 ---
 
 ## End of Report
 
-SHA-256 Hash of the report: 170177f57a25b643010f1237d498c34104d147f6c308d7dea01817169a9c871c
+SHA-256 Hash of the report: b5923db7c727015c726d1100ad02e47eca59eede092d57aa277a85ba40b8fecc
 
 Do not edit the generated report. Any changes will be reported as academic dishonesty
 
