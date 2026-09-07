@@ -8,7 +8,7 @@
 
 I did not find any issues with the final code. It compiles without warnings in GitHub Codespaces, all of the unit tests pass, `lab.c` has 100% code coverage, and AddressSanitizer does not report any memory issues.
 
-I was not able to test it on Onyx because I could not connect to the Boise State VPN on multiple devices. I also tried connecting directly through SSH while off campus, but the connection timed out. This appears to be an access issue rather than an issue with the code.
+I initially had trouble testing the project on Onyx because the Boise State VPN would not connect on my Mac or other devices. I was eventually able to connect to the VPN using a Windows computer. After connecting through SSH, the project successfully compiled on Onyx without any warnings or errors.
 
 ## Experience
 
